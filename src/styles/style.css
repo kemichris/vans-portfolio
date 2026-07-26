@@ -98,7 +98,7 @@
 /* =============== HERO SECTION ==================*/
 .hero-section {
     margin-top: 3rem;
-    padding: 15rem 6rem 2rem;
+    padding: 0 6rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hero.jpg");
     background-size: cover;
     display: flex;
@@ -140,6 +140,7 @@
     color: #111827;
     font-style: italic;
     font-size: 0.8rem;
+    text-align: center;
 }
 
 .visions {
@@ -429,5 +430,48 @@
     justify-content: flex-start;
     gap: 2rem;
 }
+
+}
+
+@media (max-width: 600px) {
+     /* =============== HERO SECTION ==================*/
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    /* =============== PRACTICE SECTION ==================*/
+    .practice-text p {
+        word-spacing: 0.7rem;
+    }
+    .practice-text h2 {
+        line-height: 1.5;
+        font-size: 2rem;
+    }
+
+    .practice-cards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* =============== HERO SECTION ==================*/
+     .hero-section {
+        padding: 0 2rem;
+     }
+
+     .hero-section h1 {
+        font-size: 1.8rem;
+     }
+
+
+    /* =============== CALL TO ACTION SECTION ==================*/
+    .call-to-action h2 {
+        font-size: 1.5rem;
+    }
 
 }

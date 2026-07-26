@@ -1,0 +1,31 @@
+.page-header {
+    height: 16rem;
+    max-height: 16rem;
+    max-width: 100%;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/pageHero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header h1 {
+    color: #fff;
+    letter-spacing: 0.3rem;
+    font-size: 3.5rem;
+}
+
+@media (max-width: 760px) {
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+}

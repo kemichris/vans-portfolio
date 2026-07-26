@@ -2,7 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/HeroSection";
 import { VisionSection } from "./components/VisionSection";
 import { PracticeSection } from "./components/PracticeSection";
-import { ContactSection } from "./components/ContactSection";
+import { ContactInfo } from "./components/ContactInfo";
 import { CallToAction } from "./components/CallToAction";
 import { Footer } from "./components/Footer";
 import "./styles/style.css"
@@ -16,7 +16,7 @@ export function Home() {
             <HeroSection />
             <VisionSection />
             <PracticeSection />
-            <ContactSection />
+            <ContactInfo />
             <CallToAction />
             <Footer />
         </>

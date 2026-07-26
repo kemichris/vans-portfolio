@@ -212,7 +212,7 @@
 }
 
 /* =============== CONTACT SECTION ==================*/
-.contact-section {
+.contact-info {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/handshake.jpg");
     background-size: cover;
     background-position: center;
@@ -224,13 +224,13 @@
     text-align: center;
 }
 
-.contact-section p {
+.contact-info p {
     color: #fff;
     margin-bottom: 1rem;
     word-spacing: 0.5rem;
 }
 
-.contact-section .contact-section-p {
+.contact-info .contact-info-p {
     font-size: 2.5rem;
     word-spacing: normal;
 }
@@ -417,10 +417,10 @@
    }
 
    /* =============== CONTACT SECTION ==================*/
-   .contact-section {
+   .contact-info {
     padding: 4rem 2rem;
    }
-   .contact-section .contact-section-p {
+   .contact-info .contact-info-p {
     font-size: 1.5rem;
    }
 

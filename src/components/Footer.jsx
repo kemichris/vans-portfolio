@@ -7,7 +7,7 @@ export function Footer() {
             <div className="main-footer-content">
                 <div className="company-info">
                     <img src={Logo} alt="" className="logo" />
-                    <p>Sakarya Sok. No:31/1 Fl:1 Office:1 Maltepe/İstanbul</p>
+                    <p>Kültür Mah. Yüksel Cad. No: 24/8 06420 Çankaya / ANKARA TÜRKİYE</p>
                     <p>contact@hdkdkdk.com</p>
                     <p>+1 (971) 720-5960</p>
                 </div>

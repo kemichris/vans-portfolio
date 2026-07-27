@@ -8,11 +8,10 @@ import "./styles/Privacy.css"
 export function Cookies() {
     return (
         <>
-        <Navbar />
-        <CookiesSection />
-        <CallToAction />
-        <Footer />
-
+            <Navbar />
+            <CookiesSection />
+            <CallToAction />
+            <Footer />
         </>
     )
 }

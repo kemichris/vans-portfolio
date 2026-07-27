@@ -4,7 +4,6 @@ export function FooterLinks({ linkHeader, links }) {
     return (
         <div className="footer-links">
             <h4>{linkHeader}</h4>
-
             <ul>
                 {links.map((link) => (
                     <li key={link.to}>

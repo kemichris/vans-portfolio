@@ -4,10 +4,14 @@ import { About } from './About';
 import { Contact } from './Contact';
 import { Privacy } from './Privacy';
 import { Cookies } from './Cookies';
+import ScrollToTop from './components/ScrollToTop';
+
 
 
 function App() {
   return (
+    <>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -15,6 +19,7 @@ function App() {
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/cookies" element={<Cookies />} />
     </Routes>
+    </>
   )
 }
 

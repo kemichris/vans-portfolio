@@ -1,3 +1,4 @@
+
 export function CookiesSection() {
     return (
         <div className="cookies-section">

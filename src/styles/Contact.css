@@ -74,6 +74,11 @@
     scale: 0.9;
 }
 
+.form-status {
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 700px) {
     .contact-form {
         width: 100%;

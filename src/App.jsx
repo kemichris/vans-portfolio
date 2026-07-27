@@ -5,6 +5,7 @@ import { Contact } from './Contact';
 import { Privacy } from './Privacy';
 import { Cookies } from './Cookies';
 import ScrollToTop from './components/ScrollToTop';
+import { ThankYou } from './ThankYou';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/cookies" element={<Cookies />} />
+      <Route path="/thankyou" element={<ThankYou />} />
     </Routes>
     </>
   )

@@ -48,7 +48,6 @@
 
 /* General button */
 .btn,
-.practice-text a,
 .submit-btn {
     display: inline-flex;
     align-items: center;
@@ -63,8 +62,7 @@
     color: #111827;
 }
 
-.btn:hover,
-.practice-text a:hover {
+.btn:hover{
     transform: scale(.9);
 }
 

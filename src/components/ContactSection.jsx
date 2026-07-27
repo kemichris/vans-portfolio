@@ -17,7 +17,7 @@ export function ContactSection() {
                     <input type="email" name="email" placeholder="Email" />
                     <input type="tel" name="phone" id="" placeholder="Phone" />
                     <textarea name="message" id="" ></textarea>
-                    <button type="submit">Send <IoIosSend /></button>
+                    <button type="submit" className="send-btn">Send <IoIosSend /></button>
                 </form>
             </div>
         </div>

@@ -1,13 +1,8 @@
-import { Link } from "react-router-dom";
-
-export function Button({ icon, text, to }) {
+export function Button({ icon, text}) {
     return (
-        <Link className="btn"
-            to={to}
-            className="btn"
-        >
-            {icon}
+        <button className="btn">
             {text}
-        </Link>
+            {icon}
+        </button>
     );
 }

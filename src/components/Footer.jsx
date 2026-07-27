@@ -8,7 +8,7 @@ export function Footer() {
                 <div className="company-info">
                     <img src={Logo} alt="" className="logo" />
                     <p>Kültür Mah. Yüksel Cad. No: 24/8 06420 Çankaya / ANKARA TÜRKİYE</p>
-                    <p>contact@hdkdkdk.com</p>
+                    <p>contact@vansmehmet.com</p>
                     <p>+1 (971) 720-5960</p>
                 </div>
 

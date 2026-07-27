@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
-import Loader from './components/Loader';
 import ScrollToTop from './components/ScrollToTop';
 
 import { Home } from './Home';
@@ -12,42 +11,37 @@ import { Cookies } from './Cookies';
 import { ThankYou } from './ThankYou';
 
 function App() {
-    const [loading, setLoading] = useState(true);
+  useEffect(() => {
 
-    useEffect(() => {
-        const handleLoad = () => {
-            setLoading(false);
-        };
+    const loader = document.getElementById("preloader");
 
-        if (document.readyState === 'complete') {
-            handleLoad();
-        } else {
-            window.addEventListener('load', handleLoad);
+    if (loader) {
 
-            return () => {
-                window.removeEventListener('load', handleLoad);
-            };
-        }
-    }, []);
+      loader.style.opacity = "0";
+      loader.style.transition = "opacity .5s";
 
-    if (loading) {
-        return <Loader />;
+      setTimeout(() => {
+        loader.remove();
+      }, 500);
+
     }
 
-    return (
-        <>
-            <ScrollToTop />
+  }, []);
 
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/privacy" element={<Privacy />} />
-                <Route path="/cookies" element={<Cookies />} />
-                <Route path="/thankyou" element={<ThankYou />} />
-            </Routes>
-        </>
-    );
+  return (
+    <>
+      <ScrollToTop />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/cookies" element={<Cookies />} />
+        <Route path="/thankyou" element={<ThankYou />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;

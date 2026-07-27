@@ -1,0 +1,9 @@
+.privacy-section, .cookies-section {
+    margin-top: 3rem;
+    padding: 3rem 3rem 1rem;
+}
+
+.page-content p {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}

@@ -23,8 +23,8 @@ export function Footer() {
                 <FooterLinks
                     linkHeader="Privacy Policies"
                     links={[
-                        { text: "Personal Data Notice", to: "/about" },
-                        { text: "Cookies Poliy", to: "/services" }
+                        { text: "Personal Data Notice", to: "/privacy" },
+                        { text: "Cookies Policy", to: "/cookies" }
                     ]}
                 />
             </div>

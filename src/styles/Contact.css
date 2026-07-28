@@ -45,6 +45,7 @@
     height: 2.5rem;
     padding: 0.5rem;
     border: none;
+    font-size: 1rem;
 }
 
 .contact-form input:focus, .contact-form textarea:focus {
@@ -53,6 +54,7 @@
  
 .contact-form textarea {
     height: 10rem;
+    font-size: 1rem;
 }
 
 .send-btn {

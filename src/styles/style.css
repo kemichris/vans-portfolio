@@ -254,6 +254,8 @@
 .call-to-action form input {
     padding: 0.5rem;
     width: 15rem;
+    font-size: 1rem;
+    height:2.5rem;
 }
 
 .submit-btn {

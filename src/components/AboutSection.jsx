@@ -1,9 +1,29 @@
 import AboutImg from "../assets/profile.PNG"
+import Herdem from "../assets/herdem.jpg"
+import selenay from "../assets/selenay.jpg"
+import erkam from "../assets/erkam-dinc.jpg"
 
 export function AboutSection() {
     return (
         <div className="about-section">
-            <img src={AboutImg} alt="" />
+            <div className="about-img">
+                <figure>
+                    <img src={AboutImg} alt="" />
+                    <figcaption>Vans Mehmet Casmiro (Founder - Lawyer)</figcaption>
+                </figure>
+                <figure>
+                    <img src={Herdem} alt="" />
+                    <figcaption>Herdem Gültekin (Managing Director)</figcaption>
+                </figure>
+                <figure>
+                    <img src={erkam} alt="" />
+                    <figcaption>Erkam Dinç (Parner)</figcaption>
+                </figure>
+                <figure>
+                    <img src={selenay} alt="" />
+                    <figcaption>Selenay Özkavakli (Associate)</figcaption>
+                </figure>
+            </div>
             <div className="about-text">
                 <p>Vans Mehmet Casmiro is a dedicated legal practitioner and the
                     founding attorney of Vans Casmiro Mehmet & Associates,

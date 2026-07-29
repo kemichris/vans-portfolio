@@ -4,15 +4,19 @@
     gap: 3rem;
     padding: 4rem 2rem 0;
 }
-
+.about-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
 .about-section img {
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
-.about-text {
+/* .about-text {
     width: 50%;
-}
+} */
 
 .about-section p {
     font-size: 1rem;

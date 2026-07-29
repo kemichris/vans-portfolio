@@ -9,19 +9,19 @@ export function AboutSection() {
             <div className="about-img">
                 <figure>
                     <img src={AboutImg} alt="" />
-                    <figcaption>Vans Mehmet Casmiro (Founder - Lawyer)</figcaption>
+                    <figcaption>Vans Mehmet Casmiro - Founder</figcaption>
                 </figure>
                 <figure>
                     <img src={Herdem} alt="" />
-                    <figcaption>Herdem Gültekin (Managing Director)</figcaption>
+                    <figcaption>Herdem Gültekin - Managing Director</figcaption>
                 </figure>
                 <figure>
                     <img src={erkam} alt="" />
-                    <figcaption>Erkam Dinç (Parner)</figcaption>
+                    <figcaption>Erkam Dinç - Partner</figcaption>
                 </figure>
                 <figure>
                     <img src={selenay} alt="" />
-                    <figcaption>Selenay Özkavakli (Associate)</figcaption>
+                    <figcaption>Selenay Özkavakli - Associate</figcaption>
                 </figure>
             </div>
             <div className="about-text">
